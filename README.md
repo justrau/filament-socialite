@@ -5,10 +5,8 @@
 
 # Social login for Filament through Laravel Socialite
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/dutchcodingcompany/filament-socialite.svg?style=flat-square)](https://packagist.org/packages/dutchcodingcompany/filament-socialite)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/dutchcodingcompany/filament-socialite/run-tests?label=tests)](https://github.com/dutchcodingcompany/filament-socialite/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/dutchcodingcompany/filament-socialite/Check%20&%20fix%20styling?label=code%20style)](https://github.com/dutchcodingcompany/filament-socialite/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/dutchcodingcompany/filament-socialite.svg?style=flat-square)](https://packagist.org/packages/dutchcodingcompany/filament-socialite)
+[![GitHub Tests Action Status](https://github.com/justrau/filament-socialite/actions/workflows/run-tests.yml/badge.svg)](https://github.com/justrau/filament-socialite/actions/workflows/run-tests.yml)
+[![GitHub Code Style Action Status](https://github.com/justrau/filament-socialite/actions/workflows/php-cs-fixer.yml/badge.svg)](https://github.com/justrau/filament-socialite/actions/workflows/php-cs-fixer.yml)
 
 Add OAuth2 login through Laravel Socialite to Filament. OAuth1 (eg. Twitter) is not supported at this time.
 
@@ -16,8 +14,8 @@ Add OAuth2 login through Laravel Socialite to Filament. OAuth1 (eg. Twitter) is 
 
 | Filament version                                                                                                                                               | Package version | Readme                                                                               |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|--------------------------------------------------------------------------------------|
-| [^5.0.0](https://github.com/filamentphp/filament/tree/5.x)                                                                              | ^3.1           | [Link](https://github.com/DutchCodingCompany/filament-socialite/blob/main/README.md) |
-| [^4.0.0](https://github.com/filamentphp/filament/tree/4.x)                                                                              | 3.x.x           | [Link](https://github.com/DutchCodingCompany/filament-socialite/blob/main/README.md) |
+| [^5.0.0](https://github.com/filamentphp/filament/tree/5.x)                                                                              | ^3.1           | [Link](https://github.com/justrau/filament-socialite/blob/main/README.md) |
+| [^4.0.0](https://github.com/filamentphp/filament/tree/4.x)                                                                              | 3.x.x           | [Link](https://github.com/justrau/filament-socialite/blob/main/README.md) |
 | [^3.2.44](https://github.com/filamentphp/filament/releases/tag/v3.2.44) (if using [SPA mode](https://filamentphp.com/docs/3.x/panels/configuration#spa-mode))  | 2.x.x           | [Link](https://github.com/DutchCodingCompany/filament-socialite/blob/2.x/README.md) |
 | [^3.2.44](https://github.com/filamentphp/filament/releases/tag/v3.2.44) (if using [SPA mode](https://filamentphp.com/docs/3.x/panels/configuration#spa-mode))  | ^1.3.1          |                                                                                      |
 | 3.x                                                                                                                                                            | 1.x.x           | [Link](https://github.com/DutchCodingCompany/filament-socialite/blob/1.x/README.md)  |
@@ -26,7 +24,7 @@ Add OAuth2 login through Laravel Socialite to Filament. OAuth1 (eg. Twitter) is 
 Install the package via composer:
 
 ```bash
-composer require dutchcodingcompany/filament-socialite
+composer require justrau/filament-socialite
 ```
 
 Publish and migrate the migration file:

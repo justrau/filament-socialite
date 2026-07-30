@@ -3,4 +3,4 @@
 
 namespace Composer;
 
-exec("vendor/bin/rector process --config vendor/dutchcodingcompany/filament-socialite/rector.php --clear-cache");
+exec("vendor/bin/rector process --config vendor/justrau/filament-socialite/rector.php --clear-cache");
